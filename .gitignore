@@ -3,6 +3,32 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Visual Studio 專案常見忽略檔案
+
+## 建置產物
+bin/
+obj/
+
+## VS 本機設定
+.vs/
+*.user
+*.suo
+
+## 發佈相關
+*.publishsettings
+*.pdb
+
+## 調試 / 快取
+*.cache
+*.dbmdl
+*.log
+
+## NuGet Packages（如果你有用）
+packages/
+
+## 系統檔案
+Thumbs.db
+
 # User-specific files
 *.rsuser
 *.suo
