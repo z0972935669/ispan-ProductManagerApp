@@ -56,6 +56,7 @@
             this.btnOrder.TabIndex = 2;
             this.btnOrder.Text = "訂單管理";
             this.btnOrder.UseVisualStyleBackColor = true;
+            this.btnOrder.Click += new System.EventHandler(this.btnOrder_Click);
             // 
             // btnCategory
             // 

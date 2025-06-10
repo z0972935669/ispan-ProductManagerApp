@@ -25,10 +25,18 @@ namespace CategoryManagerApp
 
         private void btnCategory_Click(object sender, EventArgs e)
         {
-            panelForm.Controls.Clear();
+            panelForm.Controls.Clear(); // 清除舊內容
             CategoryControl categoryControl = new CategoryControl();
             categoryControl.Dock = DockStyle.Fill;
-            panelForm.Controls.Add(categoryControl);
+            panelForm.Controls.Add(categoryControl); // 加入類別管理控制項
+        }
+
+        private void btnOrder_Click(object sender, EventArgs e)
+        {
+            panelForm.Controls.Clear(); // 清除舊內容
+            OrderControl orderControl = new OrderControl();
+            orderControl.Dock = DockStyle.Fill;
+            panelForm.Controls.Add(orderControl); // 加入訂單管理制項
         }
     }
 }
